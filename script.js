@@ -8,6 +8,8 @@
 //   blur.style.top = dets.y - 250 + "px";
 // });
 
+alert("This site is in under development and it is Not developed for an Mobile yet :)");
+
 
 burger = document.querySelector(".burger")
 
