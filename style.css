@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    /* background-color: rgba(0, 0, 0, 0.034); */
+}
+
+
+/* For WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #555; /* Dark color for the track */
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-color: #333 #555;
+    scrollbar-width: thin;
+  }
+  
+
+p{
+    color: #676466;
+}
+
+button{
+    cursor: pointer;
+}
+button:hover{
+    filter: invert(1);
+}
+i{
+    cursor: pointer;
+}
+
+.nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px 50px 50px;
+}
+
+.nav h1{
+    font-weight: 500;
+}
+
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#page1{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#page1 img{
+    height: 400px;
+    border-radius: 50%;
+}
+#inpage1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#inpage1 h2{
+    font-size: 40px;
+}
+#inpage1 h4{
+    font-size: 25px;
+    color: #5A5655;
+}
+
+#inpage1 #dw{
+   background-color: #fff;
+   border: 2px solid black;
+   padding: 15px;
+   border-radius: 50px;
+}
+#inpage1 #con{
+    color: #fff;
+    background-color: #343335;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+ }
+
+ #inpage3 i {
+    font-size: 40px;
+ }
+
+
+ #page2{
+    width: 100%;
+    height: 100vh;
+ }
+
+ #page2 img{
+    height: 400px;
+    border-radius: 20%;
+}
+
+#inpage2_1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+#inpage2_1 h2{
+    font-size: 80px;
+}
+#inpage2_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 8%;
+  }
+
+  #inabout1{
+    display: flex;
+    gap: 20px;
+  }
+
+#inbox{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;  
+    border: 1px solid #434343a8;
+    border-radius: 20px;  
+    margin-bottom: 30px;
+  }
+
+
+  #inabout p{
+    width: 600px;
+  }
+
+  #inpage2_3{
+    display: flex;
+    margin-top: 80px;
+    padding: 20px;
+    justify-content: flex-end;
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+
+
+  #page{
+    width: 100%;
+    height: 100vh;
+ }
+
+ #box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+ }
+ #box1{
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    padding: 40px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+ }
+
+ #skill img{
+    width: 35px;
+ }
+ 
+
+ #skill{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+ }
+
+ #inskill{
+    width: 300px;
+    display: flex;
+    gap: 90px;
+ }
+
+ #inskill p{
+  margin-left: 43px;
+ }
+
+#inskill h3{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    text-transform: capitalize;
+  font-size: 20px;   
+}
+
+#inskill div{
+    margin-top: 20px;
+    
+}
+#box h2{
+    margin-left: 20px;
+    color: #555555;
+    font-size: 35px;
+}
+
+#inpage3_3{
+    display: flex;
+    margin-top: 80px;
+    padding: 20px;
+    justify-content: flex-end;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#p1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #33333386;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+#p1 img{
+  height: 350px;
+  border-radius: 20px;
+}
+
+#btn{
+    display: flex;
+    gap: 25px;
+}
+#p1 button{
+    background-color: #fff;
+    border: 2px solid #333;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#continfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+}
+
+#c1 h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#c1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #33333386;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 50px;
+}
+
+
+#inpagec_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #inpagec_1 p{
+     margin-top: 10%;
+  }
+
+
+  #inpagec_1 h2{
+      font-size: 50px;
+  }
+
+  #footnav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+
+  .footnav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 80px 50px 50px 50px;
+    margin-top: 15%;
+}
+
+
+.footnav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#endp{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+/* 
+#cursor{
+    height: 25px;
+    width: 25px;
+    background-color: orange ;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+#cursor-blur {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 168, 18, 0.373);
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(80px);
+    z-index: 9;
+    transition: all linear 0.4s;
+  }
+   */
+
+  a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+/* chatgpt */
+
+  button {
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+
+#page1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* chatgpt */
+:root {
+    --primary-color: #3498db; /* A shade of blue */
+    --secondary-color: #2ecc71; /* A shade of green */
+    --background-color: #f9f9f9; /* Light gray background */
+    --text-color: #333; /* Dark gray text */
+    --accent-color: #e74c3c; /* A shade of red for accents */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+#con {
+    color: #fff;
+    background-color: var(--accent-color);
+}
+
+#btn button {
+    background-color: var(--primary-color);
+    border: 2px solid var(--text-color);
+}
+
+#box1 {
+    border: 2px solid var(--text-color);
+}
+
+.testimonials {
+    background-color: var(--background-color);
+}
+
+footer {
+    background-color: var(--text-color);
+    color: #fff;
+}
+
+
+
+.nav a {
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.nav a:hover {
+    color: #3498db; /* Change the color on hover */
+}
+
+
+
+
+.footnav a {
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.footnav a:hover {
+    color: #3498db; /* Change the color on hover */
+}
+
+
+
+
+
+.burger{
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+  display: none;
+}
+
+.line{
+    width: 33px;
+    background-color: black;
+    height: 4px;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1140px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger{
+        display: block;
+    }
+     .v-class{
+        opacity: 0;
+     }
+
+     img{
+        height: 20px;
+        border-radius: 50%;
+     }
+
+}
