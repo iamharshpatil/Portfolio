@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px)  {
+    .nav h4{
+        display: block;
+    }
+    .nav-2{
+        display: none;
+    }
+
+}
