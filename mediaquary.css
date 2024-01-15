@@ -5,5 +5,167 @@
     .nav-2{
         display: none;
     }
+    
+    #page1{
+        flex-direction: column;
+        align-items: center;    
+        text-align: center;
+    }
+    #page1 img{
+        height: 200px;
+    }
 
+    #inpage2_2{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #inabout1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #inbox{
+        margin-left: 20%;
+    }
+
+    #inabout p{
+        margin-bottom: 10%;
+    }
+
+    #p1{
+        margin-left: 50px;
+    }
+
+    #c1{
+        align-items: center;
+        justify-content: center;
+    }
+    .footnav{
+        margin-top: 150px;
+    }
+    .footnav a{
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px;
+    }
+
+
+    
+    #page3
+    {
+        
+        width: 160vw;
+        height: 120vh;
+        display: flex;
+        margin-top: 400px;
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page3 p{
+        margin-top: 50px;
+    }
+    .box2
+    {
+        height: 40vh;
+        width: 90%;
+        border: 2px solid gray;
+        border-radius: 1.5rem;
+        margin-top: 100px;
+        display: flex;
+        
+    } 
+    .big2
+    {
+        width: 90%;
+        height:50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin-top: 200px;
+        margin-right: 20px;
+    }
+    .inbox
+    {
+        
+        width: 100%;
+        height: 40vh;
+        
+    }
+    .inhead{
+        display: flex;
+        justify-content: center;
+    }
+    .inhead h1{
+        margin-top: 20px;
+        color: gray;
+        font-size: 25px;
+    }
+    .list
+    {
+        
+        width: 90%;
+        height: 8vh;
+        
+        margin-left: 5.1rem;
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+
+    .list li{
+        
+        list-style: none;
+        padding: 0rem;
+        display: flex;
+        
+    
+    }
+
+    .list  img{
+        margin-top: 0rem;
+        margin-right: 1rem;
+        height: 25px;
+        width: 25px;
+    }
+    .listbox
+    {
+    
+        width: 34%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .list ul p 
+    {
+        margin-left: 2.5rem;
+    }
+    .bigb
+    {
+        width: 100%;
+        height: 32vh;
+        
+        display: flex;
+    }
+    .listbox2
+    {
+        
+        width: 34%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+        margin-left: 3.9rem;
+    }
+    
+   
 }
